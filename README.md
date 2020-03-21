@@ -1,33 +1,22 @@
-# Realtime Face Recognizer
-
-[![Build Status](https://travis-ci.org/pillarpond/face-recognizer-android.svg?branch=master)](https://travis-ci.org/pillarpond/face-recognizer-android)
-
-This sample demonstrates realtime face recognition on Android. The project is based on the [FaceNet](https://arxiv.org/abs/1503.03832).
-
-## Inspiration
-The project is heavily inspired by
-* [FaceNet](https://github.com/davidsandberg/facenet)
-* [MediaPipe](https://github.com/google/mediapipe)
-* [Android LibSVM](https://github.com/yctung/AndroidLibSVM)
-* [Tensorflow Android Camera Demo](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android)
-
-## Screenshots
-The code can recognize 5 famous people's faces.[(Source)](https://github.com/pillarpond/facerecognizer/blob/master/app/src/main/assets/label)  
-![demo1](./demo1.gif)  
-
-Also, you can add new person using photos.  
-![demo2](./demo2.gif)
-
-## Pre-trained model
-from davidsandberg's facenet
-
-| Model name      | LFW accuracy | Training dataset | Architecture |
-|-----------------|--------------|------------------|-------------|
-| [20180402-114759](https://drive.google.com/open?id=1EXPBSXwTaqrSC0OhUdXNmKSh9qJUQ55-) | 0.9965        | VGGFace2      | [Inception ResNet v1](https://github.com/davidsandberg/facenet/blob/master/src/models/inception_resnet_v1.py) |
-
-from MediaPipe
-  * [TFLite model](https://github.com/google/mediapipe/tree/master/mediapipe/models/face_detection_front.tflite)
-  * Paper: ["BlazeFace: Sub-millisecond Neural Face Detection on Mobile GPUs"](https://sites.google.com/corp/view/perception-cv4arvr/blazeface)
-
-## License
-[Apache License 2.0](./LICENSE)
+# About
+innosoft-face-recognize aims to help produce an easily usable implementation of face recognize.<br/>
+<br/>
+<h2>Usage</h2>
+<p>First you must copy the modul, you can cloning or download this library.</p>
+<p>Please open this&nbsp;<a href="https://https://github.com/maedilaziman/innosoft-face-recognize/blob/master/app/src/main/java/com/maedi/soft/ino/recognize/face/MainActivity.java">example activity</a> for how to use this library.</p>
+That's it!
+<br/>
+<h2>License</h2>
+<pre><code>Apache License 2.0
+<br/>
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+<br/>
+   http://www.apache.org/licenses/LICENSE-2.0
+<br/>
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.</code></pre>
