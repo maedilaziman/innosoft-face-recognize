@@ -3,7 +3,7 @@ innosoft-face-recognize aims to help produce an easily usable implementation of 
 <br/>
 <h2>Usage</h2>
 <p>First you must copy the modul, you can cloning or download this library.</p>
-<p>Please open this&nbsp;<a href="https://https://github.com/maedilaziman/innosoft-face-recognize/blob/master/app/src/main/java/com/maedi/soft/ino/recognize/face/MainActivity.java">example activity</a> for how to use this library.</p>
+<p>Please open this&nbsp;<a href="https://github.com/maedilaziman/innosoft-face-recognize/blob/master/app/src/main/java/com/maedi/soft/ino/recognize/face/MainActivity.java">example activity</a> for how to use this library.</p>
 That's it!
 <br/>
 <h2>License</h2>
